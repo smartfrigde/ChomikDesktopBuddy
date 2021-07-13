@@ -1,0 +1,6 @@
+.chomik {
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-app-region: drag;
+ }
+ 

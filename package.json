@@ -4,7 +4,9 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "startWithTransparentOption" : "electron --enable-transparent-visuals .",
+    "startWithAllOptions" : "electron --enable-transparent-visuals --disable-gpu ."
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
